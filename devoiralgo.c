@@ -33,10 +33,49 @@ int sommeTab(struct facture tabf[N]) {
 
 
 // Définir la structure Ange
+struct facture{
+int montant;
+char [20];
+int idetudiant;
+int numero;
+char objet[21];
+};
+struct facture tabf[N];
+
 
 //minTabAnge
+int Mintab(struct facture tabf[N]){
+    int Min=0;
+    int i;
+    int N;
+    for(i=0;i<n;i++){
+        if(tabf[i].mont<Min){
+            Min=tabF[i].mont;
+
+
+
+        }
+        return Min;
+    }
+
+}
+
 
 // maxtabange
+int Maxtab(struct facture tabf[N]){
+    int Max=0;
+    int i;
+    int n;
+    for(i=0;i<n;i++){
+        if(tabf[i].mont>Max){
+            Max=tabf[i].mont;
+
+
+        }
+        return Max;
+    }
+
+}
 
 
 //Fonction somme par objetAmina
