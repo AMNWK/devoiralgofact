@@ -49,7 +49,7 @@ int Mintab(struct facture tabf[N]){
     int i;
     int N;
     for(i=0;i<n;i++){
-        if(tabf[i].mont<Min){
+        if(tabf[i].mont<Min){ 
             Min=tabF[i].mont;
 
 
